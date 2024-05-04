@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section-container {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.pic-container {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+}
+
+.parte-texto {
+    align-self: center;
+    text-align: center;
+}
+
+.parte-texto-p1,
+.parte-texto-p2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.parte-texto-p1 {
+    font-size: 1.25rem;
+}
+
+.parte-texto-p2 {
+    color: rgb(65, 65, 65);
+}
+
+.parte-texto-p3 {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.parte-texto-h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    border-radius: 0%;
+    cursor: pointer;
+    height: 4rem;
+}
+
+.area-texto {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.area-texto {
+    margin-top: 2rem;
+}
+
+.sobre-mim {
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 15px;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.flex-container1 {
+    display: flex;
+    margin-top: 15px;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.imagens-hobbie {
+    display: flex;
+    height: 110px;
+    width: 110px;
+    margin: auto 0;
+}
+
+.imagens-hobbie2 {
+    display: flex;
+    height: 160px;
+    width: 110px;
+    margin: 15px;
+    border-radius: 0%;
+}
